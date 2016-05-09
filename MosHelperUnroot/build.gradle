@@ -7,10 +7,11 @@ android {
     defaultConfig {
         applicationId "mydomain.moshelperunroot"
         minSdkVersion 15
-        targetSdkVersion 21
+        targetSdkVersion 23
         versionCode 1
-        versionName "1.1.1"
+        versionName "1.1.2"
     }
+
     buildTypes {
         release {
             minifyEnabled true

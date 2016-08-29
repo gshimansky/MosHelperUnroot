@@ -12,7 +12,7 @@ public class MosHelperUnroot implements IXposedHookLoadPackage {
             return;
         }
 
-        findAndHookMethod("ru.deptrans.moshelper.components.r", lpparam.classLoader, "d", "android.content.Context", new XC_MethodReplacement() {
+        findAndHookMethod("ru.deptrans.moshelper.components.v", lpparam.classLoader, "d", "android.content.Context", new XC_MethodReplacement() {
             @Override
             protected Object replaceHookedMethod(MethodHookParam methodHookParam) throws Throwable {
                 return false;
